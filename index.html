@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buscador de contatos</title>
+</head>
+
+<body>
+    <div class="container-image">
+        <img src="logo.png" alt="logo">
+    </div>
+    <div class="title">
+        <h1>Buscador de contatos</h1>
+    </div>
+    <div class="search">
+        <input placeholder="Digite o contato">
+        <button onclick="search()">Buscar</button>
+    </div>
+    <div class="result">
+        <p id="contacts"></p>
+        <button id="clear" style="display: none;" onclick="clearSearch()">Limpar</button>
+    </div>
+    <div class="footer">
+        <p>*Todos os dados exibidos nesta página são fictícios e utilizados apenas para fins de demonstração*</p>
+    </div>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
